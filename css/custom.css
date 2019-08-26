@@ -1,0 +1,506 @@
+#clearDate{
+    cursor: pointer;
+}
+
+.preview{
+    cursor: pointer;
+}
+
+details :focus{
+    outline: none;
+}
+.companyRow{
+    min-height: 100px;
+    padding: 10px 0px;
+}
+.earningRow{
+    padding: 0px 15px;
+}
+
+.earningRow th{
+    padding: 10px 0px 10px 15px;
+}
+
+.earningRow .firstColumn{
+    background-color: #ebebeb;
+    min-height: 250px;
+}
+
+.earningRow .col-md-6{
+    padding: 0px !important;
+}
+
+.totalRow th{
+    padding: 10px 0px 10px 15px;
+}
+
+.totalRow td{
+    padding-left: 15px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.innerUL{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.removeAddition{
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#addAddition{
+    color:blue;
+    cursor: pointer;
+}
+
+.removeDeduction{
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#addDeduction{
+    color:blue;
+    cursor: pointer;
+}
+
+
+
+.error{
+    color: red;
+}
+
+.modal-dialog{
+    max-width: 90%;
+}
+.chooseTemplate{
+    cursor: pointer;
+}
+
+#temp1 th{
+    background-color: #2450a9;
+    color: #fff;
+}
+
+#temp2 .employeeRow th{
+    background-color: #ebebeb;
+    border: none;
+}
+
+#temp2 th{
+    border-top: 3px solid #c6c6c6;
+    border-bottom: 3px solid #c6c6c6;
+
+}
+
+#temp4 th{
+    border-top: 3px solid #c6c6c6;
+    border-bottom: 3px solid #c6c6c6;
+
+}
+
+#temp4 .netRow th{
+    border-top:none;
+    padding-bottom: 5px;
+}
+
+
+
+#template .container {
+    border: 1px solid grey;
+    padding:5px;
+}
+
+#template .vCenter{
+    margin-top: auto;
+    margin-bottom: auto;
+    /* text-align: right; */
+}
+#temp1 .estatement {
+    color:blue;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+#temp2 .estatement {
+    color : #000000;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+#temp2{
+    color : #000000 !important;
+}
+
+.table{
+    color : #000000 !important;
+}
+
+
+
+.blockHeader{
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e1e1e1;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#template table{
+    background-color: #fff;
+}
+
+/* #temp1 .earningTable,#temp1 .deductionTable,#temp2 .earningTable,#temp2 .deductionTable{
+    width: 50%;
+}
+
+#temp3 .earningTable,#temp3 .deductionTable{
+    width: 100% !important;
+}
+
+#temp1 .earningRow div,#temp2 .earningRow div{
+    display:flex;
+} */
+
+
+/* Template3 CSS*/
+
+#temp3{
+    color: #000000 !important;
+}
+
+#temp3 .companyname {
+    font-size: 22px;
+    font-weight: bold;
+}
+#temp3 .estatement{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#temp3 .employeeRow{
+    background-color: #e1e1e1;
+    margin: 15px 0px;
+    padding: 15px 0px;
+    font-size: 18px;
+
+}
+
+#temp3 th{
+    border-top: 3px solid #c6c6c6;
+    border-bottom: 3px solid #c6c6c6;   
+}
+
+#temp3 .firstColumn{
+    background: #f8f8f8;
+    min-height: 90px;
+}
+
+.grossRow td{
+    padding: 10px 0px 10px 15px;
+    background-color: #ebebeb;
+}
+
+
+.pd-0{
+    padding:0;
+}
+
+
+/* Range Picker Css */
+
+.daterangepicker {
+	border: 1px solid #ccc;
+}
+.daterangepicker .ranges {
+	float: none!important;
+	width: auto;
+}
+.daterangepicker .applyBtn,
+.daterangepicker .cancelBtn {
+    color: #fff;
+    padding: 5px 21px;
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none repeat scroll 0 0 #a9be33;
+    border-radius: 36px;
+}
+
+.daterangepicker .applyBtn:hover,
+.daterangepicker .cancelBtn:hover{
+    background: #3b86b0;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    
+}
+.daterangepicker td.in-range {
+	background-color: #cfdd7f!important;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+	background-color: #a9be33!important;
+}
+
+
+.glyphicon-calendar {
+	cursor: pointer!important;
+}
+
+@media all {
+	.fa {
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.fa-chevron-left:before {
+		content: "\f053";
+	}
+
+}
+
+@media all {
+	i {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: inherit;
+		font-size: 100%;
+		font-style: inherit;
+		font-weight: inherit;
+	}
+
+	*,
+	*:before,
+	*:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+}
+
+.fa {
+
+	display: inline-block;
+
+	font: normal normal normal 14px/1 FontAwesome;
+
+	font-size: inherit;
+
+	text-rendering: auto;
+
+	-webkit-font-smoothing: antialiased;
+
+	-moz-osx-font-smoothing: grayscale;
+
+}
+
+.fa-chevron-left:before {
+
+	content: "\f053";
+
+}
+
+/*! CSS Used fontfaces */
+
+@font-face{font-family:'FontAwesome';src:url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.eot#1565974515);src:url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.eot#1565974515) format('embedded-opentype'),
+
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.woff#1565974515) format('woff'),
+
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.ttf#1565974515) format('truetype'),
+
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');
+
+font-weight:400;
+
+font-style:normal;
+}
+@font-face{font-family:'FontAwesome';src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?v=4.4.0');src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot#iefix&v=4.4.0') format('embedded-opentype'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+font-weight:normal;
+font-style:normal;
+
+}
+/*! CSS Used from: Embedded ; media=all */
+
+@media all {
+	.fa {
+		display:inline-block;
+		font:normal normal normal 14px/1 FontAwesome;
+		font-size:inherit;
+		text-rendering:auto;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
+	}
+	.fa-chevron-right:before {
+		content: "\f054";
+	}
+}
+/*! CSS Used from: Embedded ; media=all */
+
+@media all {
+	i {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		font:inherit;
+		vertical-align:baseline;
+		font-family:inherit;
+		font-size:100%;
+		font-style:inherit;
+		font-weight:inherit;
+	}
+	*,
+	*:before,
+	*:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css */
+
+.fa {
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+.fa-chevron-right:before {
+	content:"\f054";
+}
+/*! CSS Used fontfaces */
+
+@font-face{font-family:'FontAwesome';src:url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.eot#1565974515);src:url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.eot#1565974515) format('embedded-opentype'),
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.woff#1565974515) format('woff'),
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.ttf#1565974515) format('truetype'),
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');
+font-weight:400;
+font-style:normal;
+
+}
+@font-face{font-family:'FontAwesome';src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?v=4.4.0');src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot#iefix&v=4.4.0') format('embedded-opentype'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+font-weight:normal;
+font-style:normal;
+
+}
+/*! CSS Used from: Embedded ; media=all */
+
+@media all {
+	.fa {
+		display:inline-block;
+		font:normal normal normal 14px/1 FontAwesome;
+		font-size:inherit;
+		text-rendering:auto;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
+	}
+	.fa-calendar:before {
+		content:"\f073";
+	}
+}
+/*! CSS Used from: Embedded ; media=all */
+
+@media all {
+	i {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		font:inherit;
+		vertical-align:baseline;
+		font-family:inherit;
+		font-size:100%;
+		font-style:inherit;
+		font-weight:inherit;
+	}
+	*,
+	*:before,
+	*:after {
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	.glyphicon-calendar {
+		cursor:pointer!important;
+	}
+}
+/*! CSS Used from: https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css */
+
+.daterangepicker .daterangepicker_input i {
+	position:absolute;
+	left:8px;
+	top:8px;
+}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css */
+
+.fa {
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+.fa-calendar:before {
+	content:"\f073";
+}
+/*! CSS Used fontfaces */
+
+@font-face{font-family:'FontAwesome';src:url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.eot#1565974515);src:url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.eot#1565974515) format('embedded-opentype'),
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.woff#1565974515) format('woff'),
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.ttf#1565974515) format('truetype'),
+url(https://www.checkstubmaker.com/wp-content/themes/total/css/../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');
+font-weight:400;
+font-style:normal;
+
+}
+@font-face{font-family:'FontAwesome';src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?v=4.4.0');src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot#iefix&v=4.4.0') format('embedded-opentype'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+font-weight:normal;
+font-style:normal;
+
+}
